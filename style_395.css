@@ -1,0 +1,148 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+    
+    font-size: 5.625rem;        
+    margin: 50 auto 50 auto;
+    font-family: 'Sacramento', cursive;
+    color: #363062;
+    line-height: 3.10;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #363062;
+    /* default font-weight by the browser = bold */
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4D96FF;
+}
+
+a {
+    color: #4D96FF;
+    /* margin-bottom: 30px; */
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF7BC;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted 6px #F2F2F2;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container {
+    background-color: #B4AEE8;
+    /* bottom cloud relative to top-container */
+    position: relative;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.middle-container {
+    /* between mountain and profile photo; bottom container */
+    margin: 100px auto   auto;
+}
+
+.bottom-container {
+    background-color: #363062;
+    padding: 30px 0 30px 0;
+    margin-top: 70px;
+} 
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.profile {
+    border-radius: 10%;
+}
+
+.skill-row {
+    width: 50%;
+    /* shifted towards left ; need to adjust it to the center and to add some margin between my skills div and design & develop.*/
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+.code-img {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img {
+    width: 18%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #D9D7F1;
+    background-image: -webkit-linear-gradient(top, #D9D7F1, #D9D7F1);
+    background-image: -moz-linear-gradient(top, #D9D7F1, #D9D7F1);
+    background-image: -ms-linear-gradient(top, #D9D7F1, #D9D7F1);
+    background-image: -o-linear-gradient(top, #D9D7F1, #D9D7F1);
+    background-image: linear-gradient(to bottom, #D9D7F1, #D9D7F1);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #363062;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #B0DEFF;
+    background-image: -webkit-linear-gradient(top, #B0DEFF, #B0DEFF);
+    background-image: -moz-linear-gradient(top, #B0DEFF, #B0DEFF);
+    background-image: -ms-linear-gradient(top, #B0DEFF, #B0DEFF);
+    background-image: -o-linear-gradient(top, #B0DEFF, #B0DEFF);
+    background-image: linear-gradient(to bottom, #B0DEFF, #B0DEFF);
+    text-decoration: none;
+}
+
+.copyright {
+    color: #FFF7BC;
+    font-weight: normal;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.contact-message {
+    margin: 40px auto 60px;
+}
